@@ -380,6 +380,7 @@
                 </excludes>
             </resource>
         </resources>
+        <pluginManagement>
         <plugins>
             <plugin>
                 <groupId>com.google.code.sortpom</groupId>
@@ -580,6 +581,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        </pluginManagement>
     </build>
 
     <profiles>
@@ -612,6 +614,7 @@
                 </dependency>
             </dependencies>
             <build>
+                <pluginManagement>
                 <plugins>
                     <plugin>
                         <groupId>org.springframework.boot</groupId>
@@ -623,6 +626,7 @@
                         </configuration>
                     </plugin>
                 </plugins>
+                </pluginManagement>
             </build>
         </profile>
         <profile>
@@ -634,6 +638,7 @@
                 </dependency>
             </dependencies>
             <build>
+                <pluginManagement>
                 <plugins>
                     <plugin>
                         <groupId>com.github.trecloux</groupId>
@@ -683,6 +688,7 @@
                         </configuration>
                     </plugin>
                 </plugins>
+                </pluginManagement>
             </build>
             <properties>
                 <!-- log configuration -->
